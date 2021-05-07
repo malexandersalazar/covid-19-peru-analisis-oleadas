@@ -16,15 +16,15 @@ Este proyecto se desarrolló en Python 3.8.5 usando los paquetes **pandas**, **m
 
 ### Adquisición de Datos
 
-Obtuve las cifras de defunciones contra COVID-19 actualizadas a la fecha **2021-04-24** de la Plataforma Nacional de Datos Abiertos del Gobierno de Perú. Los conjuntos de datos utilizados están disponibles en el repositorio "Fallecidos por COVID-19" del Ministerio de Salud [[2]].
+Obtuve las cifras de defunciones contra COVID-19 actualizadas a la fecha **2021-05-07** de la Plataforma Nacional de Datos Abiertos del Gobierno de Perú. Los conjuntos de datos utilizados están disponibles en el repositorio "Fallecidos por COVID-19" del Ministerio de Salud [[2]].
 
 ## Resultados
 
-![alt text](dist/DEFUNCIONES.png "TACNA")
+![alt text](dist/DEFUNCIONES.png "EMA")
 
-![alt text](dist/RSI.png "TUMBES")
+![alt text](dist/SO.png "SO")
 
-![alt text](dist/SO.png "UCAYALI")
+![alt text](dist/RSI.png "RSI")
 
 ## Conclusiones
 
@@ -34,7 +34,9 @@ Obtuve las cifras de defunciones contra COVID-19 actualizadas a la fecha **2021-
 
 **2021-03-01** La diagonal (42, 44, 49) del RSI confirma una segunda ola de COVID-19 en Perú con una fuerte tendencia de subida. Sin embargo, el indicador SO señala un posible retroceso en el número de defunciones diarias.
 
-**2021-04-01** La diagonal (44,51,53) confirma el fin del retroceso en el número de defunciones diarias y consolida una tendencia al alza crítica. Según el SO, es muy probable que entre Mayo y Junio obtengamos más máximos historicos de defunciones diarias por COVID-19, así como el pico de la segunda ola de COVID-19 en Perú.
+**2021-04-01** La diagonal (44,51,53) del RSI confirma el fin del retroceso en el número de defunciones diarias y consolida una tendencia al alza crítica. Según el SO, es muy probable que entre Mayo y Junio obtengamos más máximos historicos de defunciones diarias por COVID-19, así como el pico de la segunda ola de COVID-19 en Perú.
+
+**2021-05-07** A pesar de que el número de defunciones diarias ha retrocedido en la última semana, la diagonal (44,51,53,59) del RSI aún se mantiene. Dada esta situación, aún debemos considerar que es probable que las defunciones aumenten durante los siguientes días. Se recomienda no bajar la guardía hasta tener un claro indicio de que la propagación del virus esta retrocediendo.
 
 ## Referencias
 
@@ -42,6 +44,6 @@ Obtuve las cifras de defunciones contra COVID-19 actualizadas a la fecha **2021-
 
 [1]: https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public
 
-2. Ministerio de Salud - MINSA. (s.f.). _Fallecidos por COVID-19 -  [Ministerio de Salud - MINSA] | Plataforma Nacional de Datos Abiertos_. Gobierno del Perú. Recuperado el 24 de abril de 2021 de https://www.datosabiertos.gob.pe/dataset/fallecidos-por-covid-19-ministerio-de-salud-minsa
+2. Ministerio de Salud - MINSA. (s.f.). _Fallecidos por COVID-19 -  [Ministerio de Salud - MINSA] | Plataforma Nacional de Datos Abiertos_. Gobierno del Perú. Recuperado el 07 de mayo de 2021 de https://www.datosabiertos.gob.pe/dataset/fallecidos-por-covid-19-ministerio-de-salud-minsa
 
 [2]: https://www.datosabiertos.gob.pe/dataset/fallecidos-por-covid-19-ministerio-de-salud-minsa
