@@ -16,7 +16,7 @@ Este proyecto se desarrolló en Python 3.8.5 usando los paquetes **pandas**, **m
 
 ### Adquisición de Datos
 
-Obtuve las cifras de defunciones contra COVID-19 actualizadas a la fecha **2021-05-07** de la Plataforma Nacional de Datos Abiertos del Gobierno de Perú. Los conjuntos de datos utilizados están disponibles en el repositorio "Fallecidos por COVID-19" del Ministerio de Salud [[2]].
+Obtuve las cifras de defunciones contra COVID-19 actualizadas a la fecha **2021-06-27** de la Plataforma Nacional de Datos Abiertos del Gobierno de Perú. Los conjuntos de datos utilizados están disponibles en el repositorio "Fallecidos por COVID-19" del Ministerio de Salud [[2]].
 
 ## Resultados
 
@@ -26,7 +26,7 @@ Obtuve las cifras de defunciones contra COVID-19 actualizadas a la fecha **2021-
 
 ![alt text](dist/RSI.png "RSI")
 
-## Conclusiones
+## Bitácora
 
 **2020-10-01** La diagonal (15,22,27) del RSI detecta una tendencia de bajada que sugiere que probablamente entre los meses de Octubre y Noviembre lleguemos a un mínimo de defunciones diarias ocasionadas por la primera ola de COVID-19 en Perú.
 
@@ -38,12 +38,14 @@ Obtuve las cifras de defunciones contra COVID-19 actualizadas a la fecha **2021-
 
 **2021-05-07** A pesar de que el número de defunciones diarias ha retrocedido en la última semana, la diagonal (44,51,53,59) del RSI aún se mantiene. Dada esta situación, aún debemos considerar que es probable que las defunciones aumenten durante los siguientes días. Se recomienda no bajar la guardía hasta tener un claro indicio de que la propagación del virus esta retrocediendo.
 
+**2021-06-27** La última fuente de datos actualizada por el MINSA alteró las observaciones anteriores. Parece que los registros pendientes de defunciones en los meses anteriores e incluso los del año pasado recién fueron introducidos durante el último mes. El pico de la segunda ola de COVID-19 en Perú se alcanzó a finales de Mayo. Sobre esto se puede decir que el periodo en meses promedio de cada ola es de entre 8 y 9 meses.
+
 ## Referencias
 
 1. Organización Mundial de la Salud. (07 de octubre de 2021). _Orientaciones para el público_. Organización de las Naciones Unidas. Recuperado el 24 de abril de 2021 de https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public
 
 [1]: https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public
 
-2. Ministerio de Salud - MINSA. (s.f.). _Fallecidos por COVID-19 -  [Ministerio de Salud - MINSA] | Plataforma Nacional de Datos Abiertos_. Gobierno del Perú. Recuperado el 07 de mayo de 2021 de https://www.datosabiertos.gob.pe/dataset/fallecidos-por-covid-19-ministerio-de-salud-minsa
+2. Ministerio de Salud - MINSA. (s.f.). _Fallecidos por COVID-19 -  [Ministerio de Salud - MINSA] | Plataforma Nacional de Datos Abiertos_. Gobierno del Perú. Recuperado el 27 de junio de 2021 de https://www.datosabiertos.gob.pe/dataset/fallecidos-por-covid-19-ministerio-de-salud-minsa
 
 [2]: https://www.datosabiertos.gob.pe/dataset/fallecidos-por-covid-19-ministerio-de-salud-minsa
