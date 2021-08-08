@@ -16,11 +16,11 @@ Este proyecto se desarrolló en Python 3.8.5 usando los paquetes **pandas**, **m
 
 ### Adquisición de Datos
 
-Obtuve las cifras de defunciones contra COVID-19 actualizadas a la fecha **2021-06-27** de la Plataforma Nacional de Datos Abiertos del Gobierno de Perú. Los conjuntos de datos utilizados están disponibles en el repositorio "Fallecidos por COVID-19" del Ministerio de Salud [[2]].
+Obtuve las cifras de defunciones [[2]] y casos positivos [[3]] por COVID-19 actualizadas a la fecha **2021-08-08** de la Plataforma Nacional de Datos Abiertos del Gobierno de Perú. Los conjuntos de datos utilizados están disponibles en el repositorio "Fallecidos por COVID-19" del Ministerio de Salud.
 
 ## Resultados
 
-![alt text](dist/DEFUNCIONES.png "EMA")
+![alt text](dist/COMPARATIVA.png "CASOS POSITIVOS VS DEFUNCIONES")
 
 ![alt text](dist/SO.png "SO")
 
@@ -40,12 +40,18 @@ Obtuve las cifras de defunciones contra COVID-19 actualizadas a la fecha **2021-
 
 **2021-06-27** La última fuente de datos actualizada por el MINSA alteró las observaciones anteriores. Parece que los registros pendientes de defunciones en los meses anteriores e incluso los del año pasado recién fueron introducidos durante el último mes. El pico de la segunda ola de COVID-19 en Perú se alcanzó a finales de Mayo. Sobre esto se puede decir que el periodo en meses promedio de cada ola es de entre 8 y 9 meses.
 
+**2021-08-08** Las observaciones (71,72,73) del RSI y la comparativa de casos/defunciones con la anterior ola nos sugieren que ya llegamos o estamos llegando al final de la segunda ola en Perú. Y dados los resultados, la tercera ola aún no comienza, sin embargo debemos estar muy atentos a los acontecimientos de las siguientes dos semanas.
+
 ## Referencias
 
 1. Organización Mundial de la Salud. (07 de octubre de 2021). _Orientaciones para el público_. Organización de las Naciones Unidas. Recuperado el 24 de abril de 2021 de https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public
 
 [1]: https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public
 
-2. Ministerio de Salud - MINSA. (s.f.). _Fallecidos por COVID-19 -  [Ministerio de Salud - MINSA] | Plataforma Nacional de Datos Abiertos_. Gobierno del Perú. Recuperado el 27 de junio de 2021 de https://www.datosabiertos.gob.pe/dataset/fallecidos-por-covid-19-ministerio-de-salud-minsa
+2. Ministerio de Salud - MINSA. (s.f.). _Fallecidos por COVID-19 -  [Ministerio de Salud - MINSA] | Plataforma Nacional de Datos Abiertos_. Gobierno del Perú. Recuperado el 8 de agosto de 2021 de https://www.datosabiertos.gob.pe/dataset/fallecidos-por-covid-19-ministerio-de-salud-minsa
 
 [2]: https://www.datosabiertos.gob.pe/dataset/fallecidos-por-covid-19-ministerio-de-salud-minsa
+
+3. Ministerio de Salud - MINSA. (s.f.). _Casos positivos por COVID-19 -  [Ministerio de Salud - MINSA] | Plataforma Nacional de Datos Abiertos_. Gobierno del Perú. Recuperado el 8 de agosto de 2021 de https://www.datosabiertos.gob.pe/dataset/casos-positivos-por-covid-19-ministerio-de-salud-minsa
+
+[3]: https://www.datosabiertos.gob.pe/dataset/casos-positivos-por-covid-19-ministerio-de-salud-minsa
