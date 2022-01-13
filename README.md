@@ -2,9 +2,9 @@
 
 ## Antecedentes
 
-La enfermedad por coronavirus (COVID 19) es una ‎enfermedad infecciosa causada por un ‎coronavirus recientemente descubierto. ‎
+La enfermedad por coronavirus (COVID 19) es una enfermedad infecciosa causada por un coronavirus recientemente descubierto.
 
-La mayoría de las personas que enferman de ‎COVID 19 experimentan síntomas de leves a ‎moderados y se recuperan sin tratamiento ‎especial. 
+La mayoría de las personas que enferman de COVID 19 experimentan síntomas de leves a moderados y se recuperan sin tratamiento especial. 
 
 El virus que causa la COVID‑19 se transmite principalmente a través de las gotículas generadas cuando una persona infectada tose, estornuda o espira. Estas gotículas son demasiado pesadas para permanecer suspendidas en el aire y caen rápidamente sobre el suelo o las superficies.
 
@@ -16,15 +16,17 @@ Este proyecto se desarrolló en Python 3.8.5 usando los paquetes **pandas**, **m
 
 ### Adquisición de Datos
 
-Obtuve las cifras de defunciones [[2]] y de casos positivos [[3]] por COVID-19 actualizadas a la fecha **2021-08-30** de la Plataforma Nacional de Datos Abiertos del Gobierno de Perú. Los conjuntos de datos utilizados están disponibles en el repositorio "Fallecidos por COVID-19" del Ministerio de Salud.
+Obtuve las cifras de defunciones [[2]] y de casos positivos [[3]] por COVID-19 actualizadas a la fecha **2022-01-13** de la Plataforma Nacional de Datos Abiertos del Gobierno de Perú. Los conjuntos de datos utilizados están disponibles en el repositorio "Fallecidos por COVID-19" del Ministerio de Salud.
 
 ## Resultados
 
 ![alt text](dist/COMPARATIVA.png "CASOS POSITIVOS VS DEFUNCIONES")
 
+![alt text](dist/RSI_POSITIVOS.png "RSI POSITIVOS")
+
 ![alt text](dist/SO.png "SO")
 
-![alt text](dist/RSI.png "RSI")
+![alt text](dist/RSI_FALLECIDOS.png "RSI FALLECIDOS")
 
 ## Bitácora
 
@@ -42,16 +44,18 @@ Obtuve las cifras de defunciones [[2]] y de casos positivos [[3]] por COVID-19 a
 
 **2021-08-08** Las observaciones (71,72,73) del RSI y la comparativa de casos/defunciones con la anterior ola nos sugieren que ya llegamos o estamos llegando al final de la segunda ola en Perú. Y dados los resultados, la tercera ola aún no comienza, sin embargo debemos estar muy atentos a los acontecimientos de las siguientes dos semanas.
 
+**2022-01-13** Dada las observaciones en los indicadores estocástico y RSI de los casos positivos y defunciones podemos reconocer el inicio de la tercera ola. Asímismo podemos destacar que por lor pronto que en esta tercera ola la relación entre las defunciones y los casos positivos por COVID-19 es mucho menor que en las anteriores olas.
+
 ## Referencias
 
 1. Organización Mundial de la Salud. (07 de octubre de 2021). _Orientaciones para el público_. Organización de las Naciones Unidas. Recuperado el 24 de abril de 2021 de https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public
 
 [1]: https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public
 
-2. Ministerio de Salud - MINSA. (s.f.). _Fallecidos por COVID-19 -  [Ministerio de Salud - MINSA] | Plataforma Nacional de Datos Abiertos_. Gobierno del Perú. Recuperado el 30 de agosto de 2021 de https://www.datosabiertos.gob.pe/dataset/fallecidos-por-covid-19-ministerio-de-salud-minsa
+2. Ministerio de Salud - MINSA. (s.f.). _Fallecidos por COVID-19 -  [Ministerio de Salud - MINSA] | Plataforma Nacional de Datos Abiertos_. Gobierno del Perú. Recuperado el 13 de enero de 2022 de https://www.datosabiertos.gob.pe/dataset/fallecidos-por-covid-19-ministerio-de-salud-minsa
 
 [2]: https://www.datosabiertos.gob.pe/dataset/fallecidos-por-covid-19-ministerio-de-salud-minsa
 
-3. Ministerio de Salud - MINSA. (s.f.). _Casos positivos por COVID-19 -  [Ministerio de Salud - MINSA] | Plataforma Nacional de Datos Abiertos_. Gobierno del Perú. Recuperado el 30 de agosto de 2021 de https://www.datosabiertos.gob.pe/dataset/casos-positivos-por-covid-19-ministerio-de-salud-minsa
+3. Ministerio de Salud - MINSA. (s.f.). _Casos positivos por COVID-19 -  [Ministerio de Salud - MINSA] | Plataforma Nacional de Datos Abiertos_. Gobierno del Perú. Recuperado el 13 de enero de 2022 de https://www.datosabiertos.gob.pe/dataset/casos-positivos-por-covid-19-ministerio-de-salud-minsa
 
 [3]: https://www.datosabiertos.gob.pe/dataset/casos-positivos-por-covid-19-ministerio-de-salud-minsa
